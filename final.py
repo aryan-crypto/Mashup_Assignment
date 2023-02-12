@@ -103,7 +103,7 @@ def func(singer,N,Y,outputfile):
 
 
 
-st.title("Streamlit Input Example")
+st.title("Mashup Assignment")
 
 input_1 = st.text_input("Enter Singer:")
 input_2 = st.text_input("Enter Number of Videos:")
