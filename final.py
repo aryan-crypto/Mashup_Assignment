@@ -15,8 +15,8 @@ from email.utils import COMMASPACE, formatdate
 import shutil
 import subprocess
 
-subprocess.run(["python", "-m", "pip", "install", "--upgrade", "pip"])
-subprocess.run(["pip", "install", "git+https://github.com/ssuwani/pytube"])
+#subprocess.run(["python", "-m", "pip", "install", "--upgrade", "pip"])
+#subprocess.run(["pip", "install", "git+https://github.com/ssuwani/pytube"])
 def func(singer,N,Y,outputfile):
 
 # Create a YouTube object with the URL of the video you want to download
