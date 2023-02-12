@@ -1,6 +1,5 @@
 
 import streamlit as st
-import youtube_dl
 import moviepy.editor as mp
 import os
 import sys
@@ -14,9 +13,10 @@ from email.mime.text import MIMEText
 from email import encoders
 from email.utils import COMMASPACE, formatdate
 import shutil
+import subprocess
 
-
-yt = YouTube("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+subprocess.run(["python", "-m", "pip", "install", "--upgrade", "pip"])
+subprocess.run(["pip", "install", "git+https://github.com/ssuwani/pytube"])
 def func(singer,N,Y,outputfile):
 
 # Create a YouTube object with the URL of the video you want to download
